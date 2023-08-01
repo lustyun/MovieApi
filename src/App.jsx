@@ -36,7 +36,7 @@ export default function App() {
     return (
         <GlobalStyles>
             <div className="App">
-                <h1>Movie Search</h1>
+                <h1 className="title">Movie Search</h1>
                 <Form moviesearch={getMovie} />
                 <MovieDisplay movie={movie} />
             </div>

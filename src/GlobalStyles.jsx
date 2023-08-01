@@ -10,11 +10,12 @@ export const GlobalStyles = styled.div`
         text-align: center;
         font-family: "Roboto";
     }
-    
+
     /* Styling for the container that holds movie information */
     .movie-container {
-        background-color: #333;
+        background-color: #3f3b72;
         padding: 20px;
+        margin: 40px auto;
         border-radius: 8px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         text-align: center;
@@ -48,7 +49,7 @@ export const GlobalStyles = styled.div`
     /* Styling for the search form */
     .search-form {
         display: inline-block;
-        background-color: #333;
+        background-color: #44406f;
         padding: 10px 20px;
         border-radius: 8px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -58,22 +59,29 @@ export const GlobalStyles = styled.div`
     .search-input {
         padding: 8px;
         font-size: 16px;
-        background-color: #444;
-        color: #fff;
+        background-color: #ebebeb;
+        color: #000000;
         border: none;
-        border-radius: 4px;
+        padding: 10px 20px;
+        border-radius: 15px;
         outline: none;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
-
+    
+    ::placeholder {
+        color: #000000;
+        opacity: 1;
+    }
+    
     /* Styling for the search button */
     .search-button {
         padding: 8px 16px;
         font-size: 16px;
-        background-color: #007bff;
+        background-color: #6200ff;
         color: #fff;
         border: none;
-        border-radius: 4px;
+        margin: 5px;
+        border-radius: 15px;
         cursor: pointer;
         outline: none;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -81,6 +89,6 @@ export const GlobalStyles = styled.div`
 
     /* Hover effect for the search button */
     .search-button:hover {
-        background-color: #0056b3;
+        background-color: #4400b3;
     }
 `;
